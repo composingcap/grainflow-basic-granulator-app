@@ -7,7 +7,7 @@ outlets = 2;
 var buffer = new Buffer("");
 var samples = []
 var sampCount = 0;
-var maxSamples = 10000;
+var maxSamples = 1920;
 var sampSkip = 50;
 var dim = [];
 var grainPositions = [];
@@ -209,6 +209,22 @@ function getattr_selection()
 	return selectposition;
 }
 
+
+declareattribute("maxBufferDrawSamples",			"getattr_maxBufferDrawSamples",			"setattr_maxBufferDrawSamples", 1);
+
+function setattr_maxBufferDrawSamples()
+{
+	maxSamples = arrayfromargs(arguments);
+	load_buffer()
+
+}
+
+function getattr_maxBufferDrawSamples()
+{
+	return maxSamples;
+}
+
+
 function load_buffer(){
 	buffer = new Buffer(buffername);
 	var bufTask = new Task(drawBuffer,this, buffername);
@@ -310,7 +326,7 @@ function draw(){
 			dotA= dotColor[3]*(1-dotColorMod) + dotColor2[3]*(dotColorMod);
 			glcolor(dotR, dotG, dotB, dotA);
 			moveto(scaleX(grainPositions[p]%1), 1.75*grainAmps[p]-(1.75*0.5) + (0.05/grainPositions.length*p-0.05)*(1+dotVJitter));
-			circle(0.05*Math.pow(Math.sin(grainWindows[p]*Math.PI)*dotScale,0.5), 0, 360);
+			circle(0.05*Math.pow(Math.sin(grainWindows[p]*Math.PI*0.5)*dotScale,0.5), 0, 360);
 					}
 					}
 		

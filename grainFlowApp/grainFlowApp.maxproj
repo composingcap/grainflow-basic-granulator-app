@@ -2,7 +2,7 @@
 	"name" : "grainFlowApp",
 	"version" : 1,
 	"creationdate" : 3689691816,
-	"modificationdate" : 3690265956,
+	"modificationdate" : 3690976914,
 	"viewrect" : [ 159.0, 204.0, 300.0, 479.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -33,7 +33,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -43,7 +43,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -53,7 +53,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -63,7 +63,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -73,7 +73,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -83,7 +83,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -93,7 +93,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -103,7 +103,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
@@ -113,7 +113,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Google Drive/Working Projects/grainFlowApp/envelopes",
+					"bootpath" : "D:/Documents/GitHub/grainflow-basic-granulator-app/grainFlowApp/envelopes",
 					"projectrelativepath" : "./envelopes"
 				}
 
